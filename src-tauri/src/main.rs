@@ -18,13 +18,6 @@ async fn main() {
         .run(tauri::generate_context!())
         .expect("error while running tauri application");
 
-
-
-
-
-
-
-
     data::init("sqlite:./test.db?mode=rwc").await;
 }
 

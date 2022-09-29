@@ -47,6 +47,12 @@
         "timestampUrl": ""
       }
     },
+    "pattern": {
+      "use": "isolation",
+      "options": {
+        "dir": "../dist-isolation"
+      }
+    },
     "security": {
       "csp": null
     },
